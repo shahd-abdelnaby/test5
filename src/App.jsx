@@ -7,7 +7,7 @@ import Navbar from "./component/navbar/Navbar";
 import About from "./component/About/About";
 import Portfolio from "./component/Portfolio/Portfolio";
 import Contact from "./component/Contact/contact";
-import Footer from "./component/Footer/Footer";
+import Footer from "./component/footer/Footer";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./component/layout/Layout";
 import Test from './component/call-api/Test';
