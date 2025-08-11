@@ -10,7 +10,6 @@ import Contact from "./component/Contact/contact";
 import Footer from "./component/footer/Footer";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./component/layout/Layout";
-import Test from './component/call-api/Test';
 
 let x = createBrowserRouter([
   {
@@ -20,7 +19,6 @@ let x = createBrowserRouter([
       { path: "About", element: <About /> },
       { path: "Contact", element: <Contact /> },
       { path: "Portfolio", element: <Portfolio /> },
-      { path: "Test", element: <Test /> },
     ],
   },
 ]);
